@@ -34,7 +34,7 @@
             <code>
 'providers' => [
     // ...
-    LKDevelopment\UptimeMonitorCachetIntegration\UptimeMonitorAPIServiceProvider::class,
+    LKDevelopment\UptimeMonitorCachetIntegration\UptimeMonitorCachetIntegrationServiceProvider::class,
 ];
             </code>
         </pre>
@@ -42,7 +42,7 @@
     <div>
         <h2><a id="configuration" class="anchor" href="#configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration</h2>
         <p>To publish the config file to <code>config/laravel-uptime-monitor-cachet-integration.php</code> run:
-        <pre><code>php artisan vendor:publish --provider="LKDevelopment\UptimeMonitorCachetIntegration\UptimeMonitorAPIServiceProvider"</code>
+        <pre><code>php artisan vendor:publish --provider="LKDevelopment\UptimeMonitorCachetIntegration\UptimeMonitorCachetIntegrationServiceProvider"</code>
             </pre>
         </p>
         <p>In the Config File, you can change your Cachet Endpoint and your Cachet Token. See <a href="https://docs.cachethq.io/">Cachet Documentation</a> for more Information about Cachet.</p>
